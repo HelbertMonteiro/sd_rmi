@@ -1,0 +1,8 @@
+create database SDrmi;
+
+use SDrmi;
+
+create table ListaNumero(
+	id int primary key auto_increment,
+	lista longtext not null
+);
